@@ -19,3 +19,18 @@ toggleBtn.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 });
 
+// Select all FAQ question elements
+const faqs = document.querySelectorAll(".faq-question");
+
+// Add click listeners to toggle answer visibility
+faqs.forEach((question) => {
+  question.addEventListener("click", () => {
+    const answer = question.nextElementSibling;
+    if (answer.style.display === "block") {
+      answer.style.display = "none";
+    } else {
+      answer.style.display = "block";
+    }
+  });
+});
+
