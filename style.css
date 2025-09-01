@@ -26,3 +26,15 @@ body.dark-mode {
   background-color: #121212;
   color: #f0f0f0;
 }
+
+.faq-question {
+  cursor: pointer;
+  color: #007BFF;
+  user-select: none;
+  margin-bottom: 5px;
+}
+
+.faq-answer {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
