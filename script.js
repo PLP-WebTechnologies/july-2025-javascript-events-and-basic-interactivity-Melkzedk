@@ -10,3 +10,12 @@ button.addEventListener("click", () => {
     message.style.display = "none";
   }
 });
+
+// Get the toggle button
+const toggleBtn = document.getElementById("modeToggle");
+
+// Add click event listener
+toggleBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+});
+

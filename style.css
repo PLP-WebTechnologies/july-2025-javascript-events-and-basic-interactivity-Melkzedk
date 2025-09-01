@@ -13,3 +13,16 @@ button {
   font-weight: bold;
   color: green;
 }
+
+/* Light mode (default) */
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
